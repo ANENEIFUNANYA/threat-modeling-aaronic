@@ -15,7 +15,7 @@ Developed an AWS-based compliance automation project as part of cybersecurity tr
 **Collaborated on a STRIDE threat modeling assessment for an e-commerce platform.** 48 threats identified across frontend/backend/database, 100% mitigation coverage. Demonstrates threat prioritization, risk assessment, and how to document findings for audit readiness.
 
 ### 3. [Social Engineering Awareness Campaign](./projects/phishing-awareness-campaign/)
-Designed a Quid Pro Quo social engineering awareness campaign, including an 11-slide training presentation and 15-person survey to assess awareness gaps. Demonstrates understanding that GRC is fundamentally about peoplesecurity controls fail if employees do not follow them.
+Designed a Quid Pro Quo social engineering awareness campaign, including an 11-slide training presentation and 15-person survey to assess awareness gaps. Demonstrates understanding that GRC is fundamentally about people. Security controls fail if employees do not follow them.
 ### 4. [Technical Articles](./articles/)
 Two deep-dive articles on AI governance and cyber attack lessons—"The Invisible Hand Behind the Machines" (AI governance) and "The Day the Internet Broke" (governance failures in major breaches).
 
