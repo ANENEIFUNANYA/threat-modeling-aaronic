@@ -1,140 +1,49 @@
-# Threat Modeling: Aaronic Oil & Energy Website
+# GRC & Cybersecurity Portfolio
 
-**A comprehensive security analysis using STRIDE methodology**
+I'm Ifunanya, an aspiring Governance, Risk, and Compliance (GRC) professional who recently completed GRC training and developed hands-on experience applying governance, risk management, and compliance concepts in cloud environments.
 
-## Project Overview
+This repository showcases projects completed before and during my Cybersecurity training, with a focus on Governance, Risk and Compliance (GRC) covering areas such as risk assessment, threat modeling, security awareness, compliance monitoring, cloud security, and governance frameworks. Through these projects, I have applied concepts from frameworks including NIST CSF, ISO 27001, PCI DSS, GDPR, HIPAA, and SOC 2 in practical scenarios.
 
-This project presents a detailed **threat model** for Aaronic, an oil and energy e-commerce platform. Using the **STRIDE threat modeling methodology**, our team identified, analyzed, and developed mitigation strategies for 48+ potential security threats across the system's frontend, backend, and database components.
+My goal is to continue building hands-on experience while pursuing internship and entry-level opportunities in GRC, cybersecurity governance, risk management, and compliance.
 
-### Quick Stats
-- **Total Threats Identified:** 48
-- **Threats Mitigated:** 48 (100%)
-- **Risk Categories Analyzed:** 6 (STRIDE)
-- **Team Size:** 8 security professionals
-- **Methodology:** STRIDE Analysis
+## Projects
 
+### 1. [AWS Integrated GRC Platform](./aws-capstone-project/)
+Developed an AWS-based compliance automation project as part of cybersecurity training, applying governance, risk, and compliance concepts within a cloud environment. The project demonstrates continuous monitoring, compliance assessment, infrastructure as code, and governance controls aligned with NIST CSF and ISO 27001.
 
-## Project Goals
+### 2. [Threat Modeling: Aaronic Oil & Energy](./projects/threat-modeling-aaronic/)
+**Collaborated on a STRIDE threat modeling assessment for an e-commerce platform.** 48 threats identified across frontend/backend/database, 100% mitigation coverage. Demonstrates threat prioritization, risk assessment, and how to document findings for audit readiness.
 
-Identify potential security vulnerabilities in the Aaronic platform  
-Analyze threats across frontend, backend, and database layers  
-Develop actionable mitigation strategies  
-Create comprehensive documentation for security improvements  
+### 3. [Social Engineering Awareness Campaign](./projects/phishing-awareness-campaign/)
+Designed a Quid Pro Quo social engineering awareness campaign, including an 11-slide training presentation and 15-person survey to assess awareness gaps. Demonstrates understanding that GRC is fundamentally about peoplesecurity controls fail if employees do not follow them.
+### 4. [Technical Articles](./articles/)
+Two deep-dive articles on AI governance and cyber attack lessons—"The Invisible Hand Behind the Machines" (AI governance) and "The Day the Internet Broke" (governance failures in major breaches).
 
+## Skills
 
-##  What's Included
+**GRC & Risk Management**
+- Risk Assessment & Threat Modeling (STRIDE)
+- Compliance Monitoring & Governance
+- Security Awareness & Training
+- Audit Trail Design
+- Risk Scoring & Prioritization
 
-| File | Purpose |
-|------|---------|
-| **THREAT_MODEL_SUMMARY.md** | Detailed walkthrough of analysis and findings |
-| **docs/threat_modeling_analysis.htm** | Full threat analysis report (interactive) |
-| **docs/Threat_Modeling_Report.pdf** | Comprehensive threat model documentation |
-| **docs/threat_modeling_presentation.pdf** | Team presentation of findings |
-| **diagrams/** | Visual representations (DFD, attack trees, charts) |
+**Compliance Frameworks & Standards**
+- NIST Cybersecurity Framework
+- ISO 27001:2022
+- PCI DSS 3.2.1
+- GDPR
+- HIPAA
+- SOC 2
 
+**Cloud Security & Technologies**
+- AWS (CloudFormation, Lambda, RDS, Config, CloudTrail, S3, DynamoDB, IAM)
+- Infrastructure as Code
+- Risk & Compliance Monitoring
 
-## Key Threats Identified
+## About
+Seeking internship or entry-level GRC role. Each project here represents a real problem solved and a framework applied in practice.
 
-### By Severity
-- **Critical/High Priority:** 8 threats (authentication, data tampering, DoS)
-- **Medium Priority:** 12 threats (information disclosure, repudiation)
-- **Low Priority:** 28 threats (edge cases, defense-in-depth)
+Seeking internship and entry-level opportunities in Governance, Risk, and Compliance. Each project in this portfolio represents a real problem solved and a framework applied in practice, demonstrating my ability to conduct risk assessments, document findings for compliance, and recommend controls aligned with governance standards.
 
-### By STRIDE Category
-- **Spoofing:** 6 threats
-- **Tampering:** 8 threats
-- **Repudiation:** 4 threats
-- **Information Disclosure:** 12 threats
-- **Denial of Service:** 10 threats
-- **Elevation of Privilege:** 8 threats
-
-
-## Top Mitigation Strategies Implemented
-
-1. **Authentication & Authorization**
-   - Multi-factor authentication (MFA) implementation
-   - Role-based access control (RBAC)
-   - Strong password policies
-
-2. **Data Protection**
-   - HTTPS encryption for data in transit
-   - Strong hashing algorithms for stored credentials
-   - Database encryption and access controls
-
-3. **System Availability**
-   - DDoS protection (Cloudflare)
-   - Redundancy and backup systems
-   - Rate limiting mechanisms
-
-4. **Input Security**
-   - Input validation and sanitization
-   - SQL injection prevention
-   - Cross-site scripting (XSS) protection with CSRF tokens
-
-
-## Tools & Methodologies Used
-
-- **Threat Modeling Tool:** Microsoft Threat Modeling Tool
-- **Methodology:** STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege)
-- **Analysis Type:** System-level threat analysis with component decomposition
-- **Documentation:** HTML report generation, diagramming
-
-
-## How to Use This Repository
-
-1. **Start Here:** Read this README for project overview
-2. **Deep Dive:** Open `THREAT_MODEL_SUMMARY.md` for detailed analysis walkthrough
-3. **View Full Report:** Open `docs/threat_modeling_analysis.htm` in your browser
-4. **See Diagrams:** Check the `diagrams/` folder for visual representations
-5. **Get Details:** Review PDF documents for formal documentation
-
-
-## Team Contributors
-
-This was a collaborative security analysis project completed by a team of eight cybersecurity interns during a virtual intership program as part of a comprehensive security analysis course.
-
-
-## Key Sections in This Analysis
-
-- **Data Flow Diagram (DFD):** Shows system architecture and trust boundaries
-- **Threat Catalog:** All 48 identified threats with descriptions and STRIDE categories
-- **Risk Evaluation Matrix:** Threats ranked by likelihood and impact
-- **Mitigation Roadmap:** Strategies for addressing each threat
-- **Attack Tree:** Visual representation of credential theft attack vectors
-
-
-## Learning Outcomes
-
-Through this project, I gained experience with:
-✓ STRIDE threat modeling methodology  
-✓ Security architecture analysis  
-✓ Risk assessment and prioritization  
-✓ Mitigation strategy development  
-✓ Technical documentation and reporting  
-✓ Cross-functional team collaboration in security  
-
-
-## Project Context
-
-- **Organization:** Aaronic (Oil & Energy Sector)
-- **System Type:** E-commerce platform with inventory management
-- **Components Analyzed:** Frontend UI, Backend Web Server, SQL Database, Cloud Storage
-- **Scope:** User authentication, product browsing, transaction processing, data storage
-
-
-## For Full Details
-
-- Open `THREAT_MODEL_SUMMARY.md` for a complete walkthrough with examples
-- View `docs/threat_modeling_analysis.htm` for the interactive threat analysis report
-- Check presentation slides in `docs/` for executive summary
-
-
-## Important Notes
-
-This threat model represents a comprehensive security assessment at a specific point in time. Security is an ongoing process, and this system should undergo:
-- Regular penetration testing
-- Continuous vulnerability scanning
-- Periodic security audits (recommended: quarterly)
-- Updates as new threats emerge
-
-**Status:** Complete - All identified threats have mitigation strategies in place
+📧 missanenejennifer@gmail.com 
