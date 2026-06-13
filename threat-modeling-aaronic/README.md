@@ -74,7 +74,7 @@ Goal: Steal user credentials
 
 ## Why This Matters in GRC
 
-Threat modeling is foundational to GRC. In real organizations, threat models inform security architecture decisions, guide control selection, and provide auditors with evidence that risks were identified and addressed systematically — not guessed at. When new vulnerabilities emerge, the same framework can be reapplied.
+Threat modeling is foundational to GRC. In real organizations, threat models inform security architecture decisions, guide control selection, and provide auditors with evidence that risks were identified and addressed systematically not guessed at. When new vulnerabilities emerge, the same framework can be reapplied.
 
 The power of STRIDE is that it is disciplined. Auditors want to see methodology, not intuition. Your risk register needs to demonstrate that threats were identified systematically, and that every finding has a documented control.
 
