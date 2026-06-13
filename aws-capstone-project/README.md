@@ -1,4 +1,4 @@
-# AWS Integrated GRC Platform Capstone Project
+# AWS Integrated GRC Platform | Capstone Project
 
 ## What I Was Solving
 
