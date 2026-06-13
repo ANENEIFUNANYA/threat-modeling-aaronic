@@ -1,10 +1,8 @@
-# AWS Integrated GRC Platform — Capstone Project
+# AWS Integrated GRC Platform Capstone Project
 
 ## What I Was Solving
 
 Modern cloud environments change continuously, a configuration that passes a compliance check at 9am can be modified by 9:05am. Traditional GRC approaches built around periodic audits cannot keep up. This capstone project addresses that directly: deploying a fully functional, automated GRC platform on AWS that monitors compliance continuously, logs every change with a full audit trail, and alerts the right people when controls start failing.
-
----
 
 ## Project Context
 
@@ -14,7 +12,6 @@ The capstone provided a reference architecture, infrastructure templates, applic
 
 Through this project, I gained practical experience with cloud governance, compliance monitoring, infrastructure as code, AWS security services, and troubleshooting complex deployment issues within a simulated real-world environment.
 
----
 
 ## Frameworks Applied
 
@@ -27,7 +24,6 @@ Through this project, I gained practical experience with cloud governance, compl
 | **GDPR** | Centralized logging and audit trails support accountability, traceability, and evidence of data handling activities |
 | **SOC 2** | Continuous monitoring through CloudWatch, automated compliance checks, and centralized logging support security, availability, and operational monitoring principles |
 
----
 
 ## Deployment Summary
 
@@ -63,7 +59,6 @@ The solution was deploying a custom `grc-db-loader` Lambda function inside the s
 
 The deployment guide instructed me to attach `ConfigUserAccess` and `AWSConfigRole` to service roles. Both had been renamed by AWS after the course material was written. I ran a CLI policy search to find the current names (`AWSConfigUserAccess` and `AWS_ConfigRole`), verified the ARNs, and attached them successfully.
 
----
 
 ## What I Learned
 
@@ -72,7 +67,6 @@ The deployment guide instructed me to attach `ConfigUserAccess` and `AWSConfigRo
 - **GRC automation changes the compliance model fundamentally.** A CloudWatch alarm catching a control failure within an hour is a different security posture than a quarterly audit catching it three months later.
 - **AWS documentation goes out of date.** Policy names change, properties get renamed. Verifying current names via CLI is more reliable than trusting any fixed document.
 
----
 
 ## Skills Demonstrated
 
@@ -93,7 +87,7 @@ The deployment guide instructed me to attach `ConfigUserAccess` and `AWSConfigRo
 
 **Compliance Frameworks:** ISO 27001:2022 · NIST CSF · PCI DSS 3.2.1 · HIPAA · GDPR · SOC 2
 
----
+
 
 ## Artifacts
 
