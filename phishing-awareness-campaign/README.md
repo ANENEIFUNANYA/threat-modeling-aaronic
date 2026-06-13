@@ -6,11 +6,10 @@ Organizations spend millions on firewalls and encryption, but social engineering
 
 This project had two connected parts: a group phishing simulation that proved the awareness gap was real, and an individual awareness campaign, assigned to me by the training program, designed and delivered to address it.
 
----
 
 ## How It Unfolded
 
-**Phase 1 — Phishing Simulation (Group Exercise)**
+**Phase 1  Phishing Simulation (Group Exercise)**
 
 As part of a group exercise, I and a team of 3 other trainees conducted an authorized phishing simulation with a logistics startup. The simulation was fully authorized by the training program, and the company's management gave their complete awareness and consent for it to be carried out on their employees.
 
@@ -18,7 +17,7 @@ A simulated job opportunity link was sent to 25 employees via email. 19 out of 2
 
 That result was not a surprise to anyone who understands social engineering. But seeing it with real data, on real employees, made the case for awareness training impossible to argue against.
 
-**Phase 2 — Awareness Campaign (My Individual Project)**
+**Phase 2 Awareness Campaign (My Individual Project)**
 
 The Quid Pro Quo awareness campaign was assigned to me individually by the training program. 
 
@@ -27,7 +26,6 @@ The Quid Pro Quo awareness campaign was assigned to me individually by the train
 3. **Training Design:** Built an 11-slide interactive presentation covering attack techniques, warning signs, and response steps
 4. **Recommendations:** Provided five actionable steps employees can take immediately
 
----
 
 ## What the Data Showed
 
@@ -51,15 +49,12 @@ Nearly half had already been targeted in real life, yet many did not recognize i
 **Key Warning Signs Taught:**
 Unsolicited offers · Requests for login credentials · Pressure to act quickly · Unexpected rewards · Suspicious links · Requests for sensitive information
 
----
 
 ## Why This Matters in GRC
 
 Compliance frameworks including ISO 27001 and NIST require security awareness as a formal control — not a suggestion, a control. You can have perfect policies, but if employees do not understand them or do not follow them, compliance fails at the human layer.
 
 A 76% susceptibility rate on a real phishing simulation is not a statistic. It is evidence that governance without human awareness is incomplete. This project demonstrates that GRC professionals need to understand both the technical and human dimensions of security risk.
-
----
 
 ## What I Learned
 
@@ -68,13 +63,11 @@ A 76% susceptibility rate on a real phishing simulation is not a statistic. It i
 - **Trust is the attack surface.** Social engineering does not exploit greed alone, it exploits authority, familiarity, and trust. Awareness training must address all three.
 - **Measurement is a GRC skill.** Without the simulation and survey data, the awareness gap would have been invisible. Quantifying risk is how GRC professionals justify interventions.
 
----
 
 ## Artifact
 
 - `Quid_Pro_Quo Compaign Presention.pptx`  11-slide awareness training presentation
 - `Social_Engineering_Awareness_Campaign Report.docx`  11-slide 
----
 
 *Completed as part of cybersecurity awareness training.*
 
